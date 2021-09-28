@@ -14,9 +14,14 @@
     >
       <span class="navbar-toggler-icon" />
     </button>
-
     <div id="navbarSupportedContent" class="collapse navbar-collapse ml-auto">
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <NuxtLink to="/activity" class="nav-link">
+            Activity <span class="sr-only">(current)</span>
+          </NuxtLink>
+        </li>
+
         <li class="nav-item active">
           <NuxtLink to="/images" class="nav-link">
             Images <span class="sr-only">(current)</span>

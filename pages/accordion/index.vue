@@ -30,18 +30,7 @@
 </template>
 
 <script>
-// import S3L7Header from "@/assets/header/S3L7Header.vue";
-// import S3L7Footer from "@/assets/footer/S3L7Footer.vue";
-// import AccordionContentTwo from "@/components/AccordionContentTwo";
-
 export default {
-//   name: "Accordion2",
-//   components: {
-//     AccordionContentTwo,
-//     S3L7Header,
-//     S3L7Footer,
-//   },
-
   data() {
     return {
       // register an empty array
@@ -50,7 +39,7 @@ export default {
   },
   methods: {
     // prepare a list for toggling, defa to !visible
-    // this data can come from outside
+    // this data can come from outside api
     prepareDynamicList() {
       let list = [
         {

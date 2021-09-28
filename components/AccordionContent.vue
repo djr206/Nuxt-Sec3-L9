@@ -3,9 +3,6 @@
     <div class="list-item-head p-8">
       {{ user.name }}
       <!-- change to oppisite of current state when clicked -->
-      <!-- getting following error when moving code from L7
-       error  Unexpected mutation of "user" prop  vue/no-mutating-props 
-       -->
       <span
         class="toggle float-right"
         @click="user.visible = !user.visible"
