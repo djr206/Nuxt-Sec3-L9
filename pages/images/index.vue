@@ -17,12 +17,12 @@
 // import ImagesContent from "@/components/ImagesContent.vue";
 
 export default {
-//   name: "Images",
-//   components: {
-//     ImagesContent,
-//     S3L7Header,
-//     S3L7Footer,
-//   },
+  head() {
+    return {
+      titleTemplate: '%s - Images Page'
+    }
+  }
+  ,
   data() {
     return {
       images: [

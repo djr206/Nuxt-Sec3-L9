@@ -9,7 +9,12 @@
 
 <script>
     export default {
-        
+          head() {
+    return {
+      titleTemplate: '%s - Grid Page'
+    }
+  }
+  ,        
     }
 </script>
 

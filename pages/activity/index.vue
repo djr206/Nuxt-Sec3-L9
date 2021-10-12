@@ -9,7 +9,13 @@
 
 <script>
     export default {
-        
+          head() {
+    return {
+      titleTemplate: '%s - Activity Page'
+    }
+  }
+  ,
+      
     }
 </script>
 

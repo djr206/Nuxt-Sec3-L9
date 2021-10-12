@@ -31,6 +31,12 @@
 
 <script>
 export default {
+  head() {
+    return {
+      titleTemplate: '%s - Accordion Page'
+    }
+  }
+  ,
   data() {
     return {
       // register an empty array
